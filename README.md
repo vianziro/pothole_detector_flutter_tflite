@@ -1,10 +1,9 @@
 
-![Logo](https://i.ibb.co/bsMzm3h/logo.jpg)
 
 
-# Face Mask Detector App
+# pothole Detector App
 
-Face Mask Detection mobile application built with Flutter and TensorFlow lite in order to detect face masks using images and live camera.
+pothole Detection mobile application built with Flutter and TensorFlow lite in order to detect potholes using images and live camera.
 
 
 
