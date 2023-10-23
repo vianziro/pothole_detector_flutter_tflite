@@ -9,8 +9,8 @@ pothole Detection mobile application built with Flutter and TensorFlow lite in o
 
 ## :star: Features
  
-* Detect mask on the live detectoin.
-* Detect mask from a photo (camera or gallery)
+* Detect road on the live detectoin.
+* Detect road from a photo (camera or gallery)
 ## Installation
 
 1- Install Packages
@@ -51,20 +51,20 @@ minSdkVersion 21
 3. Train our model
 ```
 * Download the dataset for training
-    https://www.kaggle.com/prasoonkottarathil/face-mask-lite-dataset
+    https://www.kaggle.com/prasoonkottarathil/face-road-lite-dataset
 
 * Training
     - go to https://teachablemachine.withgoogle.com to train our model
     - Get Started
     - Image Project
-    - Edit `Class 1` for any Label(example `With_Mask`)
-    - Edit `Class 2` for any Label(example `Without_Mask`)
+    - Edit `Class 1` for any Label(example `With_road`)
+    - Edit `Class 2` for any Label(example `Without_road`)
     - Update image from dataset download above
     - Click `Train Model`(using default config) and waiting...
     - Click `Export Model` and select `Tensorflow Lite`
     - Download (include: *.tflite, labels.txt)
 ```
-  * <a href='https://www.kaggle.com/prasoonkottarathil/face-mask-lite-dataset'>https://www.kaggle.com/prasoonkottarathil/face-mask-lite-dataset</a>
+  * <a href='https://www.kaggle.com/prasoonkottarathil/face-road-lite-dataset'>https://www.kaggle.com/prasoonkottarathil/face-road-lite-dataset</a>
   * <a href='https://teachablemachine.withgoogle.com'>https://teachablemachine.withgoogle.com</a>
  <br>
 4. Load model
@@ -185,7 +185,7 @@ loadModel() async {
 Output format:
   [{
     index: 0,
-    label: "With_Mask",
+    label: "With_road",
     confidence: 0.989
   },...]
 
@@ -197,7 +197,7 @@ Output format:
     return "$label (${confidence.roundToDouble()}%)";
     }
 
-  Output --> With Mask (100%)
+  Output --> With road (100%)
 ```
 ## Screenshots
 <br>
@@ -208,11 +208,11 @@ Output format:
   </tr>
     <tr>
     <td><img src="assets/images/screenshots/without.png" width="360"></td>
-    <td><img src="assets/images/screenshots/withmask.png" width="360"></td>
+    <td><img src="assets/images/screenshots/withroad.png" width="360"></td>
   </tr>
       <tr>
      <td><img src="assets/images/screenshots/live_without.png" width="360"></td>
-    <td><img src="assets/images/screenshots/live_withmask.png" width="360"></td>
+    <td><img src="assets/images/screenshots/live_withroad.png" width="360"></td>
   </tr>
  </table>
  
@@ -220,5 +220,5 @@ Output format:
 
 <b> Download APK File and install it, Enjoy.</b>
 
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download APK")](https://www.dropbox.com/s/qwf67cwntwopbrr/face-mask-detector.apk?dl=0)
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download APK")](https://www.dropbox.com/s/qwf67cwntwopbrr/face-road-detector.apk?dl=0)
 
