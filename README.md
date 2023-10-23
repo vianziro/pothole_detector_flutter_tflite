@@ -203,17 +203,17 @@ Output format:
 <br>
 <table>
   <tr>
-    <td><img src="assets/images/screenshots/splash.png" width="360"></td>
-    <td><img src="assets/images/screenshots/init_state.png" width="360"></td>
+    <td><img src="https://ibb.co/nwwrZS2" width="360"></td>
+    <td><img src="https://ibb.co/jVSbwTP" width="360"></td>
   </tr>
-    <tr>
+    <!-- <tr>
     <td><img src="assets/images/screenshots/without.png" width="360"></td>
     <td><img src="assets/images/screenshots/withroad.png" width="360"></td>
   </tr>
       <tr>
      <td><img src="assets/images/screenshots/live_without.png" width="360"></td>
     <td><img src="assets/images/screenshots/live_withroad.png" width="360"></td>
-  </tr>
+  </tr> -->
  </table>
  
  ## Download APK
